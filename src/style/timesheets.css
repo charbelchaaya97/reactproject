@@ -1,0 +1,63 @@
+.timesheets-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+  
+  .timesheets-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timesheets-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .timesheets-form input,
+  .timesheets-form select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .timesheets-form button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .timesheets-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .nav-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-buttons button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #218838;
+  }
+  
